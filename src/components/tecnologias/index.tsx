@@ -13,41 +13,41 @@ export function Tecnologias() {
 
     const [boxes, setBoxes] = useState<Dados[]>([
         {
-            path: '/react.png',
-            name: 'React',
-            subMessages: 'Esse site além de ser feito em React, eu costumo usar a tecnologia React junto com o Next.js para o desenvolvimento front-end',
+          path: "/react.png",
+          name: "React",
+          subMessages: "Tecnologia principal utilizada no site, juntamente com o Next.js para o desenvolvimento front-end."
         },
         {
-            path: '/vue-logo.png',
-            name: 'Vue.js',
-            subMessages: 'Juntamente com o React, o Vue é uma framework de front-end que eu costumo usar em projetos pessoais',
+          path: "/vue-logo.png",
+          name: "Vue.js",
+          subMessages: "Além do React, também utilizo o Vue.js em projetos pessoais como outra framework de front-end."
         },
         {
-            path: '/java.png',
-            name: 'Java',
-            subMessages: 'Java foi a primeira linguagem que eu aprendi, e a que eu tenho mais afinidade, desde Spring Boot a Spigot',
+          path: "/java.png",
+          name: "Java",
+          subMessages: "Minha primeira linguagem de programação e aquela com a qual tenho maior afinidade. Trabalho com Spring Boot e Spigot."
         },
         {
-            path: '/nodejs.svg',
-            name: 'Node.js',
-            subMessages: 'Eu tenho conhecimento principalmente na parte de back-end com node.js, usando o Express.js juntamente com o Prisma.io para criar APIs RestFull',
+          path: "/nodejs.svg",
+          name: "Node.js",
+          subMessages: "Principalmente relacionado ao back-end, usando o Express.js e o Prisma.io para criar APIs RestFull."
         },
         {
-            path: '/js.svg',
-            name: 'JavaScript',
-            subMessages: 'Para criação de websites básicos ao avançado, usa-ló para fazer requests com Axios, entre muitas outras coisas eu já usei o Java Script',
+          path: "/js.svg",
+          name: "JavaScript",
+          subMessages: "Utilizado desde a criação de websites básicos até projetos avançados, incluindo o uso do Axios para fazer requests."
         },
         {
-            path: '/ts.png',
-            name: 'TypeScript',
-            subMessages: 'Apesar do JavaScript ser fantástico, eu ainda prefiro linguagens tipadas, exemplo disso é o Java, então a maioria dos meus projetos front-end usá-lo',
+          path: "/ts.png",
+          name: "TypeScript",
+          subMessages: "Prefiro linguagens tipadas, como o Java, então a maioria dos meus projetos front-end é feita com TypeScript."
         },
         { 
-            path: '/jwt.svg',
-            name: 'Jwt.io',
-            subMessages: 'Uso o para proporcionar um grau elevador de segurança e autenticação nos processos dos meus sites.',
-        },
-    ]);
+          path: "/jwt.svg",
+          name: "Jwt.io",
+          subMessages: "Uso o JWT para garantir um alto grau de segurança e autenticação nos processos dos meus sites."
+        }
+      ]);
     const carousel = useRef() as React.MutableRefObject<HTMLInputElement>;;
     const [width, setWidth] = useState(0);
 
