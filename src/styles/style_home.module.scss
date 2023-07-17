@@ -1,0 +1,62 @@
+.main {
+    min-height: 90vh;
+    min-width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid var(--dark-300);
+}
+
+.redesocias {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+}
+
+.me {
+    border-radius: 100px;
+    height: 200px;
+    width: 200px;
+}
+
+.redesocias a {
+    opacity: 0.8;
+    transition: all 0.5s;
+    margin: 1rem 0;
+    & + a {
+        margin: 0 6px;
+    }
+    &:hover {
+        opacity: 1;
+        transform: scale(1.05);
+    }
+}
+
+.body h1 {
+    padding-top: 1rem;
+    cursor: default;
+    font-size: 50px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.body h2 {
+    cursor: default;
+    color: var(--white);
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.machine {
+    min-width: 10vh;
+    font-family: monospace;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}

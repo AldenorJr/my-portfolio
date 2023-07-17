@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    background-color: var(--dark-200);
+    
+}
+
+:root {
+    --white: #fff;
+    --dark-200: #161616;
+    --dark-300: #2b2b2b;
+    --dark-400: #1d1d1d;
+    --red-200: #210000;
+    --blue: #0d00ff;
+    --red: #ff0000;
+}
+
+button {
+    cursor: pointer;
+}
+
+body, input, textarea, select, button {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    color: var(--white);
+}
+
+p {
+    color: var(--white);
+    cursor: default;
+}
+
+img {
+    cursor: pointer;
+}
+
+h1, h2, h3 {
+    font-weight: normal;
+    color: var(--white);
+    cursor: default;
+}
+  
+body{
+    background: var(--dark-700)
+}
