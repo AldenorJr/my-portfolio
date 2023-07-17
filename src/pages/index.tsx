@@ -7,8 +7,17 @@ import { FaDiscord } from 'react-icons/fa';
 import {AiFillGithub, AiFillLinkedin} from 'react-icons/ai'
 import { BsInstagram } from 'react-icons/bs'
 import { Footer } from '@/components/footer';
+import "aos/dist/aos.css"
+import Aos from 'aos';
+import { useEffect } from 'react';
 
 export default function Home() {
+
+    useEffect(() => {
+        Aos.init({
+            duration: 1200,
+        });
+    }, [])
 
     return (
         <>
