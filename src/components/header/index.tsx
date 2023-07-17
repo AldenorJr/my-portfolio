@@ -6,7 +6,15 @@ export function Header() {
     return (
         <div className={style.headerContainer}>
             <h1>
-                Aldenor Junior
+                <Link
+                activeClass="active"
+                to="start"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}>
+                    Aldenor Junior
+                </Link>
             </h1>
             <nav className={style.about}>
                 <Link 

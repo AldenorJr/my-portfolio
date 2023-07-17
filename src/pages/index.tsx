@@ -23,8 +23,9 @@ export default function Home() {
         <>
             <Head>
                 <title>Aldenor Jr - Portfolio</title>
+                <link rel="icon" href="/fotominha.png"/>
             </Head>
-            <div className={styles.home}>
+            <div className={styles.home} id='start'>
                 <Header/>
                 <main className={styles.main}>
                     <div className={styles.body}>
