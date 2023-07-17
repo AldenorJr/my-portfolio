@@ -1,5 +1,5 @@
 {
-  "homepage": "https://aldenorjr.github.io/my-portfolio",
+  "homepage": "https://AldenorJr.github.io/my-portfolio",
   "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -8,8 +8,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "predeploy": "next build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "yarn build && gh-pages -d out"
   },
   "dependencies": {
     "framer-motion": "^10.12.21",
