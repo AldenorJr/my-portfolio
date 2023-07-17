@@ -5,7 +5,7 @@ import { BsPenFill } from 'react-icons/bs'
 export function About() {
 
     return (
-        <main className={styles.main} data-aos="fade-right">
+        <main className={styles.main} data-aos="fade-right" id='about'>
             <div className={styles.me}>
                 <h1>Hey!</h1>
                 <p>

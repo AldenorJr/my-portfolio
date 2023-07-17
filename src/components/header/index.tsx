@@ -1,5 +1,5 @@
 import style from './header.module.scss';
-import { useState } from 'react'
+import { Link } from 'react-scroll';
 
 export function Header() {
 
@@ -9,8 +9,24 @@ export function Header() {
                 Aldenor Junior
             </h1>
             <nav className={style.about}>
-                <a>Sobre</a>
-                <a>Tecnologias</a>
+                <Link 
+                    activeClass="active"
+                    to="about"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                >Sobre</Link>
+                <Link
+                    activeClass="active"
+                    to="tecnologia"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                >
+                    Tecnologias
+                </Link>
             </nav>
 
         </div>

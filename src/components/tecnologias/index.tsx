@@ -57,7 +57,7 @@ export function Tecnologias() {
     }, []);
 
     return (
-        <main className={styles.main}>
+        <main className={styles.main} id='tecnologia'>
             <div className={styles.carousel} data-aos="fade-left">
                 <h1>Tecnologias usadas por mim </h1>
                 <motion.div className={styles.boxes}
